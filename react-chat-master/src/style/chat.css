@@ -1,0 +1,116 @@
+.chat-app-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCE0E8;
+}
+
+.chat-app-container .chat-login-container {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-app-container .chat-login-container .chat-welcome {
+    font-weight: 700;
+    font-size: 30px;
+    color: #07A68C;
+}
+
+.chat-app-container .chat-login-container .chat-login-direction{
+    margin-top: 3rem;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.chat-app-container .chat-login-container .chat-nameInput{
+    height: 4rem;
+    width: 30%;
+    margin-top: 1rem;
+    /* background-color: blue; */
+    /* background-color: #DCE0E8; */
+    /* border: 1px solid rgba(0,0,0,0.7); */
+    box-shadow: 1px 2px 2px 2px rgba(100, 100, 100, 0.7);
+    position: relative;
+    border-radius: 15px;
+}
+
+.chat-app-container .chat-login-container .chat-nameInput .login-input {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-app-container .chat-login-container .chat-nameInput .login-input input {
+    margin-left: 0.5rem;
+    height: 70%;
+    width: 80%;
+    font-size: 17px;
+    margin-left: 15px;
+    /* border-radius: 15px; */
+    /* border: 1px solid #e0e0e0; */
+    border:none;
+    overflow: hidden;
+}
+
+.chat-app-container .chat-login-container .chat-nameInput .login-input input:focus {
+    outline:none;
+}
+
+.chat-app-container .chat-login-container .chat-nameInput .login-input button {
+    width: 13%;
+    height: 70%;
+    margin: auto 10px;
+    background-color: #00A389;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0.9rem;
+}
+
+.chat-app-container .chat-login-container .chat-nameInput .login-input button:hover {
+    cursor: pointer;    
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+.chat-app-container .chat-app {
+    /* margin-top: 0rem; */
+    width: 75%;
+    height: 85%;
+    display: flex;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: white;
+    /* background-color: rgb(37, 36, 70); */
+}
+.chat-app-container .chat-app .no-content-message {
+    color: #ccc;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+
+

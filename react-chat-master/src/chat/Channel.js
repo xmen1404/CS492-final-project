@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../style/channel.css';
 
 export class Channel extends React.Component {
 

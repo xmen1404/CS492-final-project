@@ -1,5 +1,6 @@
 import React from 'react';
 import { Channel } from './Channel';
+import '../style/channelList.css';
 
 export class ChannelList extends React.Component {
 
@@ -14,9 +15,15 @@ export class ChannelList extends React.Component {
             list = this.props.channels.map(c => <Channel key={c.id} id={c.id} name={c.name} participants={c.participants} onClick={this.handleClick} />);
         }
         return (
-            <div className='channel-list'>
-                {list}
-            </div>);
+            <div className="channel-list-container">
+                <div className="channel-list-header">
+                    <div className="channel-list-header-text">Chat Channels</div>
+                </div>
+                <div className='channel-list'>
+                    {list}
+                </div>
+            </div>
+        );
     }
 
 }

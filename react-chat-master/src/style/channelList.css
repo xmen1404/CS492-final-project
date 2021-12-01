@@ -1,0 +1,27 @@
+.channel-list-container {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    /* margin: 10px;
+    margin-right: 0; */
+    margin: 1rem;
+}
+
+.channel-list-container .channel-list-header {
+    border-bottom: 1px solid #e0e0e0;
+    height: 4rem;
+    margin: 1rem;
+    padding-left: 2rem;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.channel-list-container .channel-list-header .channel-list-header-text {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.channel-list-container .channel-list {
+    margin: 1rem;
+}
