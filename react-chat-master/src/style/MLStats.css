@@ -4,15 +4,17 @@
     position:relative;
     margin-right: 1rem;
     margin-top: 1rem;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .MLStats-container .MLStats-header {
     border-bottom: 1px solid #e0e0e0;
     height: 4rem;
     margin: 1rem;
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
 }
 

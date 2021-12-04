@@ -8,9 +8,15 @@ export class Channel extends React.Component {
     }
 
     render() {
+        let textC = "";
+        let backgroundC = "";
+        if(this.props.chosen) {
+            textC = "#00A389";
+            backgroundC = "#E0F4F1";
+        }
         return (
-            <div className='channel-item' onClick={this.click}>
-                <div>{this.props.name}</div>
+            <div className='channel-item' style={{color: textC, backgroundColor:backgroundC}} onClick={this.click}>
+                <div >{this.props.name}</div>
                 <span>{this.props.participants}</span>
             </div>
         )
